@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(78, 158, 233);
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #ccc;
+}
+
+.name{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 98%;
+}
+
+.hl{
+    color: rgb(18, 40, 240);
+    background-color: rgb(147, 229, 247);
+    border: dashed 1px purple;
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 15px 20px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.root li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.root li a{
+    text-decoration: none;
+    color: rgb(248, 248, 249);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+
+.menu-web{
+    background-color: rgb(35, 175, 240);
+    width: 98%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+}
+
+.root li a:hover{
+    background-color: rgb(139, 116, 207);
+    color: azure;
+}
+
+.submenu{
+    width: 200px;
+    background-color: rgb(35, 175, 240);
+    color: azure;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+
+.submenu li{
+    list-style: none;
+}
+
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: azure;
+    display: block;
+    border: 1px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+    width: 200px;
+}
+
+.root li:hover .submenu{
+    display: block;
+    background-color: rgb(35, 175, 240);
+    color: azure;
+    transition: ease-in-out 0.35s;
+}
+
+.submenu li a:hover{
+    background-color: rgb(139, 116, 207);
+    color: azure;
+    transition: ease-in-out 0.35s;
+}
+
+.title1{
+    color: red;
+}
+
+.gia{
+    text-decoration: line-through;
+}
+
+.name1{
+    color: blue;
+}
+
+
